@@ -3,7 +3,7 @@ import { Link, useNavigate, useParams } from "react-router-dom";
 
 function UpdateNote() {
   const { id } = useParams();
-  const baseURL = `${import.meta.env.VITE_SERVER_URL}api/notes/${id}`;
+  const baseURL = `${import.meta.env.VITE_SERVER_URL}/api/notes/${id}`;
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
   const [submitted, setSubmitted] = useState(false);

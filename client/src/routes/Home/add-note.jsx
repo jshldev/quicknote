@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
 function AddNote() {
-  const baseURL = `${import.meta.env.VITE_SERVER_URL}api/notes/`;
+  const baseURL = `${import.meta.env.VITE_SERVER_URL}/api/notes/`;
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
   const [submitted, setSubmitted] = useState(false);

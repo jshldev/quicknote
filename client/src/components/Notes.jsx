@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 function Notes() {
-  const baseURL = `${import.meta.env.VITE_SERVER_URL}api/notes/`;
+  const baseURL = `${import.meta.env.VITE_SERVER_URL}/api/notes/`;
   //   const baseURL = "http://localhost:8000/api/notes/";
   //   console.log(import.meta.env.VITE_SERVER_URL);
   const [data, setData] = useState([]);
