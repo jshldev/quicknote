@@ -44,7 +44,7 @@ function Notes() {
           {data.map((note) => (
             // {console.log(note._id);}
             <li key={note._id}>
-              <Link to={`/note/${note._id}`}>
+              <Link to={`/update-note/${note._id}`}>
                 {/* {console.log(note.title)} */}
                 <h3>{note.title}</h3>
                 {/* {console.log(note.description)} */}
