@@ -4,5 +4,5 @@
 
 MongoDB<br />
 Express.js<br />
-React.jg<br />
+React.js<br />
 Node.js<br />
