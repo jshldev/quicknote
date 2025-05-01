@@ -1,5 +1,16 @@
 # Quick Note
 
+Jot down some notes!
+
+# Front-End URL:
+
+https://quicknote-sooty.vercel.app
+
+# Back-End MongoDB API URL:
+
+View Database JSON:
+https://quicknote-swart.vercel.app/api/notes
+
 # Language:
 
 MERN Stack:<br />
